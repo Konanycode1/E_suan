@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>login</title>
+    <title>s'inscrire</title>
     <link rel="stylesheet" href="../css/signup.css">
 </head>
 <body>
@@ -17,37 +17,42 @@
             <!-- <h1> Please Login</h1> -->
             <form>
                 <div class="bInput">
+                  <div class="blocInpu">
+                        <div class="form-control">
+                          <input type="text" required>
+                          <label> Nom</label>
+                        </div>
+                        <div class="form-control">
+                          <input type="text" required>
+                          <label> Prénom</label>
+                        </div>
+                  </div>
+                  <div class="blocInpu">
                     <div class="form-control">
-                        <input type="text" required>
-                        <label> Nom</label>
+                      <input type="text" required>
+                      <label> Niveau d'etude</label>
                     </div>
                     <div class="form-control">
                       <input type="text" required>
-                      <label> Prénom</label>
+                      <label> Numéro</label>
+                    </div>
                   </div>
-                  <div class="form-control">
-                    <input type="text" required>
-                    <label> Niveau d'etude</label>
-                  </div>
-                  <div class="form-control">
-                    <input type="text" required>
-                    <label> Numéro</label>
-                  </div>
+                  <div class="blocInpu">
                     <div class="form-control">
-                        <input type="password" required>
-                        <label> Mot de passe</label>
+                      <input type="password" required>
+                      <label> Mot de passe</label>
                     </div>
                     <div class="form-control">
                       <input type="password" required>
                       <label> Confirmer</label>
-                  </div>
-                      
+                    </div>
+                  </div>  
                 </div>
                 <div class="btn">
                     <button class="login-btn">s'inscrire</button>
                 </div >
                 <div class="list">
-                    <p class="text"><a href="register.html"> S'inscrire?</a></p>
+                    <p class="text"><a href="register.html"> Se connecter?</a></p>
                     <p class="text"><a href="register.html">Mot de passe oublié</a></p>
 
                 </div>
@@ -55,6 +60,12 @@
           </div>
         </div>
       </div>
+      <script>
+        const link = document.querySelector(".login-btn");
+        link.addEventListener("click", ()=>{
+            window.location.href = "login.html"
+        })
+      </script>
     
     <script src="../js/login.js"></script>
 </body>
