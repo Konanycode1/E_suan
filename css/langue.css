@@ -1,3 +1,7 @@
+:root{
+    --colorGlob: rgb(31, 129, 108);
+}
+
 *{
     text-decoration: none;
     margin: 0;
@@ -6,27 +10,31 @@
 }
 body{
     font-family: "Poppins";
-   
+    max-width: 1140px;
+    margin: 0 auto;
 }
 header{
     width: 100%;
-    height: 80px;
-    position: relative;
+    
+    
 }
+
 nav{
     background-color: white;
-    width: 100%;
-    box-shadow: 2px 2px 2px 2px grey;
     height: 4rem;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 0 0rem .5rem .5rem grey;
+
 }
 nav ul{
     float: right;
-    margin-right: 15rem;   
+    /* margin-right: 15rem; */
+
 }
 nav ul li{
     display: inline-block;
     line-height: 80px;
-    margin: 0 30px;
 }
 nav ul li a{
    font-size: 1.1rem; 
@@ -43,17 +51,158 @@ nav ul li a{
 .logo{
     width: 5rem;
     height: 4rem;
-    margin-left: 10rem;
+    float: left;
 }
 
 /* langues baoulé */
 
 .content{
     padding:20px ;
-    color:red;
 }
 .blocImg img{
     width: 500px;
     height: 250px;
+
+}
+.blocContOne{
+    display: flex;
+    justify-content: space-around   ;
+}
+.blocText{
+    width: 400px;
+}
+.blocBack{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.8rem;
+}
+.blocBack h3{
+    font-size: 2rem;
+}
+.blocTitlte{
+    width: 10rem;
+    height: 2rem;
+    background-color: var(--colorGlob);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blocTitlte p{
+    color: white;
+}
+.blocGlobAlph{
+    display: flex;
+    align-items: center;
+}
+ .blocAlpha{
+    padding: 20px;
+    width: 50rem;
+    height: 20rem;
+    display: grid;
+    grid-template: 70px 70px 70px 70px 70px 70px 70px/repeat(7, 100px) ;
+ }
+.alphA{
+    grid-area: 1/1/2/1;
+    
+}
+.alphB{
+    grid-area: 2/2/1/3;
+}
+.alphC{
+    grid-area: 2/3/1/4;
+}
+.alphA, .alphB,
+ .alphC,
+  .alphD, 
+  .alphE, 
+  .alphF, 
+  .alphG, 
+  .alphH,
+  .alphI, 
+  .alphJ, 
+  .alphK, 
+  .alphL, 
+  .alphM, 
+  .alphN, 
+  .alphO, 
+  .alphP,
+  .alphQ,
+  .alphR,
+  .alphS,
+  .alphT,
+  .alphU,
+  .alphV,
+  .alphW, 
+  .alphX ,
+  .alphY,
+  .alphZ,
+  .alphee,
+  .alphGe,
+  .alphKp,
+  .alphNy,
+  .alphOo
+  {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 5px 5px grey;
+    margin-right: 10px;
+    margin-bottom: 25px;
+}
+.alphB, 
+.alphD, 
+.alphee,
+.alphGe,
+.alphJ,
+.alphKp,
+.alphN,
+.alphO,
+.alphP,
+.alphT,
+.alphV,
+.alphY
+{
+    transform:translateY(20px);
+}
+.alphCard{
+    display: block;
+}
+video{
+    width: 400px;
+    height: 300px;
+    margin-bottom: 20px;
+}
+.blocVoy{
+    display: grid;
+    grid-template: 100px / repeat(5, 1fr);
+}
+.blocVoy{
+    padding: 20px;
+}
+
+.voyelCard{
+    display: block;
+}
+.voyelEN{
+    grid-area: 1/1/2/2;
+}
+.voyelAN{
+    grid-area: 1/2/2/3;
+}
+.voyelAN,
+.voyelEN,
+.voyelIN,
+.voyelUN,
+.voyelON
+{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 5px 5px grey;
+    margin-right: 10px;
+    margin-bottom: 25px;
 
 }
