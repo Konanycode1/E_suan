@@ -1,6 +1,8 @@
 :root{
     --colorGlob: rgb(31, 129, 108);
+    --bg: #E4F3FC;
 }
+
 
 *{
     text-decoration: none;
@@ -12,19 +14,21 @@ body{
     font-family: "Poppins";
     max-width: 1140px;
     margin: 0 auto;
+    
+    background-color: var(--bg);
 }
 header{
     width: 100%;
+    background-color: var(--bg);
     
     
 }
 
 nav{
-    background-color: white;
+    
     height: 4rem;
     display: flex;
     justify-content: space-around;
-    box-shadow: 0 0rem .5rem .5rem grey;
 
 }
 nav ul{
@@ -70,6 +74,11 @@ nav ul li a{
 }
 .blocText{
     width: 400px;
+}
+.blocText p{
+    font-size: 2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
 }
 .blocBack{
     display: flex;
@@ -205,4 +214,146 @@ video{
     margin-right: 10px;
     margin-bottom: 25px;
 
+}
+.blocMots{
+    padding: 10px;
+}
+.blocMotCF{
+    display: flex;
+    width: 100%;
+}
+.blocImg{
+    display: flex;
+    flex-wrap: wrap;
+}
+.imgBloc{
+    display: block;
+    margin-right: 5rem;
+    margin-bottom: 20px;
+}
+.imgBloc img{
+    width: 100px;
+    height: 100px;
+}
+.imgBloc p {
+    text-align: center;
+}
+.motcourant{
+    width: 15rem;
+    height: 4rem;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.motC{
+}
+.motF{
+    padding: 10px;
+}
+.blocFr{
+    padding:30px ;
+    width: 40rem;
+    height: 12rem;
+    display: grid;
+    grid-template: 2.5rem 2.5rem 2.5rem/ repeat(1, 1fr);
+    
+}
+.blocFruit1{
+    grid-area: 1/1/2/-1;
+    
+    
+}
+.blocFruit1{
+    width: 50rem;
+    height: 12rem;
+    display: grid;
+    grid-template: 2.5rem/ repeat(4, 12.5rem);
+}
+.blocFruit2{
+    grid-area: 3/2/4/-2;
+    
+    
+}
+.blocFruit2{
+    width: 50rem;
+    height: 12rem;
+    display: grid;
+    grid-template: 2.5rem/ repeat(4, 14.5rem);
+}
+
+.elemFr1{
+    grid-area: 1/1/2/2;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(-12deg);
+}
+.elemFr2{
+    grid-area: 1/2/2/3;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(-12deg);
+}
+.elemFr3{
+    grid-area: 1/3/2/4;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(-18deg);
+}
+.elemFr4{
+    grid-area: 1/4/2/5;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.elemFr5{
+    grid-area: 1/1/2/2;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(12deg);
+}
+.elemFr6{
+    grid-area: 1/2/2/3;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(12deg);
+}
+.elemFr7{
+    grid-area: 1/3/2/4;
+    background-color: white;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    transform: rotate(12deg);
+}
+.corps{
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.elemCorps{
+    width: 15rem;
+    height: 2rem;
+    background-color: white;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.eleColor{
+    color: var(--colorGlob);
 }
