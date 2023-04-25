@@ -3,12 +3,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 body{
     font-family: "Poppins";
     max-width: 1140px;
     margin: 0 auto;
 }
+/*------------------------header------------------------------*/
+
 header{
     width: 100%;
     
@@ -43,6 +46,9 @@ nav ul li a{
 .active:hover{
   border-bottom: 5px solid #117D95;
 }
+
+/*-----------------contenaire------------------*/
+
 .logo{
     width: 5rem;
     height: 4rem;
@@ -78,7 +84,7 @@ background-color: rgba(248, 242, 242, 0.288);
 }
 .cardretransparent .btnconnex{
     width: 15rem;
-    height: 3rem;
+    height: 3.2rem;
     background-color: #117D95;
     border-radius: 5rem;
     border: 2px solid white;
@@ -86,15 +92,107 @@ background-color: rgba(248, 242, 242, 0.288);
     margin-left:12rem;
     color: white;
     font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.cardretransparent .btnconnex:hover{
+    background-color: white;
+    border: 2px solid #117D95;
+    color: #117D95;
+    font-size: 1.2rem;
 }
 .cardrblanc{
-    width: 60%;
-    height: 10rem;
+    width: 72%;
+    height: 15rem;
     background-color: white;
     text-align: center;
     position: relative;
     top: 0;
-    margin-top: -3rem;
-    margin-left: 20rem;
+    margin-top: -6rem;
+    margin-left: 11rem;
+    
 }
+.esuan1{
+    color: #F1DC19;
+    font-size: 3rem;
+}
+.esuan2{
+    color: #117D95;
+    font-size: 3rem;
+}
+.cardrblanc p{
+    font-size: 1.4rem;
+    line-height: 28px;
+}
+.cardrblanc .ptephrase{
+    font-size: 1.1rem;
+}
+
+/*-------------slid--------------------*/
+.slider{
+    display: flex;
+    width: 125%;
+    height: 28rem;
+    margin-left: 4rem;
+    justify-content: space-between;
+    margin-top: 5rem;
+}
+
+.cardslid{
+    width: 21rem;
+    height: 100%;
+    align-items: center;
+    text-align: center;
+    box-shadow: 2px 2px 2px 2px grey;
+}
+.cardslid h3{
+    text-align: center;
+    margin-top: 1rem;
+}
+.cardslid img{
+    width: 100%;
+    height: 65%;
+    
+}
+.cardslid .btnconnex{
+    width: 12rem;
+    height: 3.2rem;
+    background-color: #117D95;
+    border-radius: 5rem;
+    border: 2px solid white;
+    margin-top: 2rem;
+    margin-left: auto;
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.cardslid .btnconnex:hover{
+    background-color: white;
+    border: 2px solid #117D95;
+    color: #117D95;
+    font-size: 1.2rem;
+}
+.cadremarron{
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    border: 1px solid red;
+    margin-top: 5rem;
+    margin-left: auto;
+}
+
+.cadremarron .card{
+    width:24% ;
+    height: 8rem;
+    border: 1px solid black;
+    text-align: center;
+    align-items: center;
+
+  
+}
+.card h3{
+    margin-top: 15%;
+}
+
+
 
