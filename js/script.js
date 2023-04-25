@@ -1,11 +1,7 @@
-let btn = $("#btnBaoulé");
+let btn = $(document.getElementById("btnBaoule"));
 
-btn.c
-
-$(document).ready(function () {
-    $("#btnBaoulé").prop("location","./pages/langueBaoule.html")
+btn.click(function (e) {
+    // $("#btnBaoulé").prop("location","./pages/langueBaoule.html")
+    console.log(e)
     
 })
-
-$()
-
