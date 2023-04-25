@@ -8,24 +8,27 @@
 }
 body{
     font-family: "Poppins";
-    max-width: 1140px;
-    margin: 0 auto;
+    
     background-color: #E8EBF4;
 }
 /*------------------------header------------------------------*/
-
+.content{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 header{
     width: 100%;
-    
-    
+    background-color: white;
+    position: sticky;
+    height: 80px;
 }
 
 nav{
-    background-color: white;
+    width: 100%;
     height: 4rem;
     display: flex;
     justify-content: space-around;
-
+    padding: .5rem ;
 }
 nav ul{
     float: right;
@@ -42,7 +45,7 @@ nav ul li a{
    text-transform: uppercase;
    width: 5rem;
    padding-left:15px;
-   padding-right:15px;
+   padding-right:10px;
 
 }
 .active:hover{
@@ -117,11 +120,11 @@ background-color: rgba(248, 242, 242, 0.288);
 }
 .esuan1{
     color: #F1DC19;
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 .esuan2{
     color: #117D95;
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 .cardrblanc p{
     font-size: 1.4rem;
@@ -130,6 +133,11 @@ background-color: rgba(248, 242, 242, 0.288);
 .cardrblanc .ptephrase{
     font-size: 1.1rem;
 }
+.rebrique{
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
 
 /*-------------slid--------------------*/
 .slider{
@@ -176,9 +184,9 @@ background-color: rgba(248, 242, 242, 0.288);
 .cadremarron{
     display: flex;
     justify-content: space-around;
-    width: 90%;
-    margin-top: 5rem;
-    margin-left: auto;
+    width: 80%;
+    margin-top: 2rem;
+    margin: auto;
 }
 
 .cadremarron .card{
@@ -192,8 +200,72 @@ background-color: rgba(248, 242, 242, 0.288);
   
 }
 .card h3{
-    margin-top: 15%;
+    margin-top: 10%;
+}
+.apropos{
+    display: flex; 
+    width: 100%;
+}
+.apropos p{
+    font-size: 1rem;
+    
+}
+.cardapropo{
+    background-color: rgba(255, 255, 255, 0.609);
+    width: 75%;
+    height: 24rem;
+    margin: auto;
+    margin-top: 4rem;
+    text-align: center;
+    border-radius: 3rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+   
+}
+.cardapropo p{
+    font-size: 1.1rem;
+    line-height: 28px;
+    margin-top: 1rem;
+}
+.cardesuan{
+    width: 23%;
+    height: 10rem;
+    margin-top: 10rem;
+    background-color: white;
+    text-align: center;
+    box-shadow: #D3A284 -5px 5px, #117D95 -10px 10px, #F1DC19 -15px 15px,#D3A284 -20px 20px,  #117D95 -25px 25px;
+}
+.cardesuan span{
+    font-size: 4rem;
+    
+}
+.footermarron{
+    width: 100%;
+    height: 16rem;
+    background-color: #D3A284;
+    margin-top: 5rem;
+    display: flex;
 }
 
+.placelogo{
+    width: 8rem;
+    height: 10rem;
+    border: 1px solid red;
+    text-align: center;
+    margin-left: 40px;
+    
+}
+.placelogo img{
+    width: 6rem;
+    height: 6rem;
+    margin-top: 2rem;
+    border-radius: 50%;
+}
+
+
+footer{
+    background-color: #55a3b9;
+    width: 100%;
+    height: 5rem;
+}
 
 
