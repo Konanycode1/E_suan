@@ -12,14 +12,14 @@
 }
 body{
     font-family: "Poppins";
-    max-width: 1140px;
-    margin: 0 auto;
+    
     
     background-color: var(--bg);
 }
 header{
     width: 100%;
-    background-color: var(--bg);
+    background-color: white;
+    position: sticky;
     
     
 }
@@ -61,19 +61,21 @@ nav ul li a{
 /* langues baoulé */
 
 .content{
-    padding:20px ;
+    max-width: 1140px;
+    margin: 0 auto;
 }
 .blocImg img{
     width: 500px;
-    height: 250px;
+    height: 300px;
 
 }
 .blocContOne{
     display: flex;
-    justify-content: space-around   ;
+    justify-content: space-around;
+    padding: 20px;
 }
 .blocText{
-    width: 400px;
+    width: 25rem;
 }
 .blocText p{
     font-size: 2rem;
