@@ -232,6 +232,7 @@ video{
     display: block;
     margin-right: 5rem;
     margin-bottom: 20px;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
 }
 .imgBloc img{
     width: 100px;
@@ -250,13 +251,17 @@ video{
     
 }
 .motC{
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
 }
 .motF{
+    width: 100%;
     padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
 }
 .blocFr{
     padding:30px ;
-    width: 40rem;
+    width: 100%;
     height: 12rem;
     display: grid;
     grid-template: 2.5rem 2.5rem 2.5rem/ repeat(1, 1fr);
@@ -341,6 +346,7 @@ video{
     transform: rotate(12deg);
 }
 .corps{
+    width: 60rem;
     padding: 20px;
     display: flex;
     flex-wrap: wrap;
@@ -358,4 +364,72 @@ video{
 }
 .eleColor{
     color: var(--colorGlob);
+}
+
+.blocNumber{
+    width: 60rem;
+    padding: 20px;
+}
+a{
+color: inherit;
+}
+
+.wrapper {
+	max-width: 80rem;
+    display: flex;
+	margin: 0 auto;
+}
+
+ol {
+	padding: 1.5rem 1.5rem 1.5rem 4em;
+	border: 0.3rem solid turquoise;
+	columns: 25rem;
+	column-gap: 7rem;
+	column-rule: 4px dotted turquoise;
+	border-radius: 0.5rem;
+}
+
+ol > * + * {
+	margin-top: 1rem;
+}
+
+li {
+	break-inside: avoid;
+}
+
+::marker {
+	content: counters(list-item, '') ': ';
+	font-weight: 700;
+	font-size: 1.5em;
+	color: turquoise;
+}
+
+li span {
+	display: block;
+}
+
+li span:first-child {
+	font-size: 1.5em;
+}
+
+li span:last-child {
+	font-style: italic;
+}
+
+.divider {
+	min-height: 6rem;
+	background: lavender;
+}
+.blocQuize{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blocQuize button{
+    width: 20rem;
+    height: 3rem;
+    background-color: white ;
+    border: 2px solid #F1DC19;
+    border-radius: 20px;
+    
 }
