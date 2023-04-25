@@ -217,14 +217,15 @@ background-color: rgba(248, 242, 242, 0.288);
     margin: auto;
     margin-top: 4rem;
     text-align: center;
-    border-radius: 3rem;
+    border-radius: 1rem;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
-   
+ 
 }
 .cardapropo p{
     font-size: 1.1rem;
     line-height: 28px;
     margin-top: 1rem;
+    padding: 10px;
 }
 .cardesuan{
     width: 23%;
@@ -236,7 +237,7 @@ background-color: rgba(248, 242, 242, 0.288);
 }
 .cardesuan span{
     font-size: 4rem;
-    
+    padding: 3px;
 }
 .footermarron{
     width: 100%;
@@ -244,6 +245,7 @@ background-color: rgba(248, 242, 242, 0.288);
     background-color: #D3A284;
     margin-top: 5rem;
     display: flex;
+    justify-content: space-around;
 }
 
 .placelogo{
@@ -251,7 +253,7 @@ background-color: rgba(248, 242, 242, 0.288);
     height: 10rem;
     border: 1px solid red;
     text-align: center;
-    margin-left: 40px;
+    margin-left: 8rem;
     
 }
 .placelogo img{
@@ -267,5 +269,20 @@ footer{
     width: 100%;
     height: 5rem;
 }
+.placeinfo, .placecateg{
+    color: white;
+}
+.traitblanc{
+    width: 4px;
+    height: 16rem;
+    background-color: white;
+}
+.placemsg{
 
+}
+.emailblanc{
+    width: 30rem;
+    height: 3rem;
+    background-color: white;
+}
 
