@@ -1,3 +1,9 @@
+:root{
+    --colorGlob: rgb(31, 129, 108);
+    --bg: #E4F3FC;
+}
+
+
 *{
     text-decoration: none;
     margin: 0;
@@ -282,7 +288,7 @@ background-color: rgba(248, 242, 242, 0.288);
 }
 .traitblanc{
     width: 4px;
-    height: 16rem;
+    height: 14rem;
     background-color: white;
 }
 .placemsg{
@@ -296,22 +302,25 @@ background-color: rgba(248, 242, 242, 0.288);
     
 }
 .emailblanc{
-    width: 25rem;
-    height: 3rem;
+    border: none;
+    width: 20rem;
+    height: 2rem;
     background-color: white;
-    border: 1px solid white;
+}
+input::placeholder{
+   text-align: center;
 }
 .cardreemail{
+    padding: 20px;
 display: flex;
 }
 .btnvalide button{
-    width: 10rem;
-    height: 3rem;
-    background-color: rgba(255, 255, 255, 0.369);
-    margin-left: 7px;
-    border: 2px solid white;
-    color: white;
+    border: none;
+    width: 8rem;
+    height: 2rem;
     cursor: pointer;
+    background-color: var(--colorGlob);
+    color: white;
 }
 
 footer{

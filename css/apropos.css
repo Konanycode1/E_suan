@@ -141,6 +141,11 @@ span{
 .footer a, .footer p {
     color: white;
 }
+.tiret{
+    width: 2px;
+    height:320px ;
+    background-color: white;
+}
 .logo{
     margin-left: 40px;
     padding-top:50;
