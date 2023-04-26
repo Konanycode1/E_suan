@@ -52,6 +52,9 @@ nav ul li a{
 .active:hover{
   border-bottom: 5px solid #117D95;
 }
+.LinkActive{
+    color: #117D95;
+}
 .logo{
     width: 5rem;
     height: 4rem;

@@ -1,21 +1,31 @@
+:root{
+    --colorGlob: rgb(31, 129, 108);
+    --bg: #E4F3FC;
+}
+
+
 *{
-    padding: 0;
+    text-decoration: none;
     margin: 0;
-    font-family:sans-serif;
+    padding: 0;
+    box-sizing: border-box;
 }
 body{
-    background-color: rgba(195, 138, 138, 0.954);
+    font-family: "Poppins";
+    
+    
+    background-color: var(--bg);
 }
-/*------------------------header------------------------------*/
-
 header{
     width: 100%;
+    background-color: white;
+    position: sticky;
     
     
 }
 
 nav{
-    background-color: white;
+    
     height: 4rem;
     display: flex;
     justify-content: space-around;
@@ -42,6 +52,17 @@ nav ul li a{
 .active:hover{
   border-bottom: 5px solid #117D95;
 }
+.LinkActive{
+    color: #117D95;
+}
+.logo{
+    width: 5rem;
+    height: 4rem;
+    float: left;
+}
+a{
+    text-decoration: none;
+}
 
 /*-----------------contenaire------------------*/
 
@@ -51,14 +72,10 @@ nav ul li a{
     float: left;
 }
 .langue{
-    background: #fff;
-    position: relative;
-    top:0px;
-    width: 80%;
-    height: 1500px;
-    margin-left: auto;
-    margin-right: auto;
-    cursor: pointer;
+    background: var(--bg);
+    max-width: 1140px;
+    margin: 0 auto;
+   
 }
 .page{
     background-image: url(../assets/image/image\ enfants.jpeg);
@@ -66,6 +83,7 @@ nav ul li a{
     background-repeat: no-repeat;
     height: 550px;
     cursor: pointer;
+    position: relative;
 }
 .enfant{
     position: absolute;
@@ -101,118 +119,80 @@ span{
     color: blue;
 }
 .barre{
-    position: relative;
-    top: 970px;
-    width: 1000px;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
     background-color: black;
     cursor: pointer;
+    margin-top: 25rem;
 }
 .pagraph{
-    position: relative;
-    top: 1000px;
-    margin: 20px;
-    left: 250px;
+    padding: 2rem;
 }
 .footer{
-    position: relative;
-    top: 1100px;
+    width: 100%;
     background:#b56f43db;
     height: 320px;
     cursor: pointer;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
- .info{
-    /* display: flex; */
-    margin: 100px;
-    padding: 20px; 
- } 
- .info a{
-    flex-direction: column;
-    flex-wrap: wrap;
-    list-style-type: none;
-    text-decoration: none;
-    padding:8 12px;
+.footer a, .footer p {
     color: white;
-    cursor: pointer;
- }
- .cate{
-    position: relative;
-    margin-top: -285px;
-    left: 350px;
- }
- .cate a{
-    color: white;
-    text-decoration: none;
- }
- .tiret{
-    position: absolute;
-    top:10px;
-    left: 660px;
-    border: 1px solid #fff;
-    border-left: none;
-    border-bottom: none;
-    border-top: none;
-    height: 250px;
-    width: 50px;
- }
- .gauche{
-    position: relative;
-    margin-top: -150px;
-    left: 1000px;
-    color: white;
- }
- input{
-    position: relative;
-    margin-top: 40px;
-    width: 280px;
-    height: 30px;
- }
- button{
-    background-color: rgba(233, 182, 150, 0.84);
-    width: 80px;
-    height: 35px;
- }
+}
 .logo{
-    position: relative;
     margin-left: 40px;
     padding-top:50;
-    top: -190px;
-    margin: 30px;
     width: 60px;
     height: 60px;
     border-radius:50%;
     cursor: pointer;
 }
-.logos{
-    position: relative;
-    left: -50px;
+.footer input{
+    border: none;
+    width: 20rem;
+    height: 2rem;
 }
+.footer button{
+    border: none;
+    width: 8rem;
+    height: 2rem;
+    cursor: pointer;
+    background-color: var(--colorGlob);
+    color: white;
+}
+.footer input::placeholder{
+    text-align: center;
+}
+
 .footer2{
-    position: absolute;
-    top: 1680px;
-    background-color:#117D95;
+    
     height: 80px;
     width: 100%;
     cursor: pointer;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:#117D95;
 }
 .footer2 p{
-    margin: 10px;
-    padding: 10px;
+    color: #ffffff;
+}
+i{
+    width: 50px;
+    height: 50px;
+   
 }
 .icon{
-    position: relative;
-    left: 1000px;
-    top: -40px;
-    color: white;
+    display: flex;
+   
 }
 .fa-regular{
-    position: relative;
-     margin-right: 30px;
      font-size: 30px;
+     color: white;
 }
 .fa-brands{
-    position: relative;
-    margin-right: 30px;
     font-size: 30px;
+    color: white;
 }

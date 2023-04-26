@@ -6,6 +6,9 @@
     font-family: 'Poppins', sans-serif;
     
 }
+.LinkActive{
+    color: #117D95;
+}
 body{
     font-family: "Poppins";
     
@@ -336,4 +339,54 @@ footer{
 }
 .foot p{
     margin-top: 1rem;
+}
+
+
+@media screen and (max-width:1400px) {
+    .contentBloc{
+        position: relative;
+    }
+
+    .cardretransparent{
+        width: 30rem;
+        height: 15rem;
+        position: absolute;
+        top:0;
+        right: 0;
+        margin-top: 12px;
+        margin-right: 5rem;
+        background-color: rgba(248, 242, 242, 0.42);
+        
+        }
+    .cardretransparent h2{
+        font-size: 1.5rem;
+    }
+    .cardretransparent .btnconnex{
+        width: 15rem;
+        height: 3.2rem;
+        background-color: #117D95;
+        border-radius: 5rem;
+        border: 2px solid white;
+        margin-top: 5rem;
+        margin-left:6rem;
+        color: white;
+        font-size: 1.2rem;
+        cursor: pointer;
+    }
+    .cardrblanc{
+            width: 72%;
+            height: 15rem;
+            background-color: white;
+            text-align: center;
+            margin-bottom: 50px;
+            
+        }
+
+        .foot{
+            display: flex;
+            justify-content: space-around;
+            width: 60rem;
+            color: white;
+            
+        }
 }
