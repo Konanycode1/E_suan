@@ -436,3 +436,105 @@ li span:last-child {
     border-radius: 20px;
     
 }
+.footermarron{
+    width: 100%;
+    height: 14rem;
+    background-color: #D3A284;
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.placelogo{
+    width: 8rem;
+    height: 10rem;
+    text-align: center;  
+}
+.placelogo img{
+    width: 6rem;
+    height: 6rem;
+    margin-top: 2rem;
+    border-radius: 50%;
+}
+
+.placeinfo, .placecateg{
+    color: white;
+    margin-top: 2rem;
+    font-size: 1.2rem;
+   
+}
+
+.placeinfo, .placecateg p{
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+.placeinfo a{
+    color: white;
+}
+.placecateg a{
+    color: white;
+}
+.traitblanc{
+    width: 4px;
+    height: 14rem;
+    background-color: white;
+}
+.placemsg{
+    margin-right: 4rem;
+    margin-top: 2rem;
+}
+.placemsg p{
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+    
+}
+.emailblanc{
+    border: none;
+    width: 20rem;
+    height: 2rem;
+    background-color: white;
+}
+input::placeholder{
+   text-align: center;
+}
+.cardreemail{
+    padding: 20px;
+display: flex;
+}
+.btnvalide button{
+    border: none;
+    width: 8rem;
+    height: 2rem;
+    cursor: pointer;
+    background-color: var(--colorGlob);
+    color: white;
+}
+
+footer{
+    background-color: #55a3b9;
+    width: 100%;
+    height: 5rem;
+   
+}
+.leslogos{
+    width: 10rem;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+}
+.leslogos img{
+    width: 2rem;
+    height: 2rem;
+}
+.foot{
+    display: flex;
+    justify-content: space-around;
+    width: 60rem;
+    color: white;
+    align-items: center;
+    
+}
+.foot p{
+    margin-top: 1rem;
+}

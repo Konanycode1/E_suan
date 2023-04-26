@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quizz JS</title>
+    <link rel="stylesheet" href="../css/quiz.css">
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1 class="title">Evaluez vous Pour mieux voir votre évolution</h1>
+    <div class="container">
+        <form action="" class="formQuiz">
+            <div class="bloc">
+                <h3>Comment appelle-t-on une ville en Baoulé? </h3>
+                <div class="response">
+                    <input type="radio" name="r1" id="" value="a" checked>
+                    <label for="r1">kɛtɛ</label>
+                </div>
+                <div class="response">
+                    <input type="radio" name="r1" id="" value="b" checked>
+                    <label for="r1">baouleklɔ</label>
+                </div>
+                <div class="response">
+                    <input type="radio" name="r1" id="" value="c" checked>
+                    <label for="r1">bɔflɛklɔ</label>
+                </div>
+            </div>
+            <div class="bloc">
+                <h3>Comment appelle-t-on le riz en Baoulé</h3>
+                <div class="response">
+                    <input type="radio" name="r2" id="" value="a" checked>
+                    <label for="r2">waka</label>
+                </div>
+                <div class="response">
+                    <input type="radio" name="r2" id="" value="b" checked>
+                    <label for="r2">blouh</label>
+                </div>
+                <div class="response">
+                    <input type="radio" name="r2" id="" value="c" checked>
+                    <label for="r2">awie</label>
+                </div>
+            </div>
+            <div class="bloc">
+                <h3>Comment on dit une fille en baoulé</h3>
+                <div class="response">
+                    <input type="radio" name="r3" id="" value="a" checked>
+                    <label for="r3">ba bla</label>
+                </div>
+                <div class="response">
+                    <input type="radio" name="r3" id="" value="b" checked>
+                    <label for="r3">bayassoua</label>
+                </div>
+                <div class="response">
+                    <input type="radio" name="r3" id="" value="c" checked>
+                    <label for="r3">kpanngɔ</label>
+                </div>
+            </div>
+            <div class="bloc">
+                <h3>Comment appelle-t-on un marché</h3>
+                <div class="response">
+                    <input type="radio" name="r4" id="" value="a" checked>
+                    <label for="r4">agba</label>
+                </div>
+                <div class="response">
+                    <input type="radio" name="r4" id="" value="b" checked>
+                    <label for="r4">soua</label>
+                </div>
+                <div class="response">
+                    <input type="radio" name="r4" id="" value="c" checked>
+                    <label for="r4">goua</label>
+                </div>
+            </div>
+            <div class="bloc">
+                <h3>Trouver le nom du fruit orange </h3>
+                <div class="response">
+                    <input type="radio" name="r5" id="" value="a" checked>
+                    <label for="r5">baoule domi</label>
+                </div>
+                <div class="response">
+                    <input type="radio" name="r5" id="" value="b" checked>
+                    <label for="r5">domi</label>
+                </div>
+                <div class="response">
+                    <input type="radio" name="r5" id="" value="c" checked>
+                    <label for="r5">pkakoh</label>
+                </div>
+            </div>
+            <div class="bloc">
+                <h3>comment appelle-t-on le nez en baoulé</h3>
+                <div class="response">
+                    <input type="radio" name="r6" id="" value="a" checked>
+                    <label for="r6">be dja</label>
+                </div>
+                <div class="response">
+                    <input type="radio" name="r6" id="" value="b" checked>
+                    <label for="r6">be bue</label>
+                </div>
+                <div class="response">
+                    <input type="radio" name="r6" id="" value="c" checked>
+                    <label for="r6">be su</label>
+                </div>
+            </div>
+            <div class="bloc">
+                <h3>comment appelle-t-on une table en Baoulé</h3>
+                <div class="response">
+                    <input type="radio" name="r7" id="" value="a" checked>
+                    <label for="r7">bia</label>
+                </div>
+                <div class="response">
+                    <input type="radio" name="r7" id="" value="b" checked>
+                    <label for="r7">tabli</label>
+                </div>
+                <div class="response">
+                    <input type="radio" name="r7" id="" value="c" checked>
+                    <label for="r7">djaba</label>
+                </div>
+            </div>
+            <div class="bloc">
+                <h3>comment appelle-t-on une maison en Baoulé</h3>
+                <div class="response">
+                    <input type="radio" name="r8" id="" value="a" checked>
+                    <label for="r8">soua</label>
+                </div>
+                <div class="response">
+                    <input type="radio" name="r8" id="" value="b" checked>
+                    <label for="r8">loto</label>
+                </div>
+                <div class="response">
+                    <input type="radio" name="r8" id="" value="c" checked>
+                    <label for="r8">baba</label>
+                </div>
+            </div>
+            <div class="btn">
+                <button type="submit" class="open-modal-btn">Soumettre votre solution</button>
+            </div>
+            
+
+        </form>
+
+        <div class="resultat">
+            <h2>Cliquez sur soumettre pour voir les résultats</h2>
+            <p class="aide"></p>
+            <p class="note"></p>
+        </div>
+    </div>
+
+    <!-- <div class="open-modal-btn-wrapper">
+        <button class="open-modal-btn">
+            Open Modal
+        </button>
+    </div> -->
+  
+    <div class="modal-overlay hide">
+        <div class="modal-wrapper">
+            <div class="close-btn-wrapper">
+                <button class="close-modal-btn">
+                    X
+                </button>
+            </div>
+            <h1>GeeksforGeeks</h1>
+            <div class="modal-content">
+                <h2>Cliquez sur soumettre pour voir les résultats</h2>
+            <p class="aide"></p>
+            <p class="note"></p>
+            </div>
+        </div>
+    </div>
+    
+
+
+
+    <script src="../js/quiz.js"></script>
+</body>
+</html>
