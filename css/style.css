@@ -18,7 +18,7 @@
 body{
     font-family: "Poppins";
     
-    background-color: #E8EBF4;
+    background-color: var(--bg);
 }
 /*------------------------header------------------------------*/
 .content{
@@ -87,6 +87,7 @@ right: 0;
 margin-top: 15rem;
 margin-right: 30rem;
 background-color: rgba(248, 242, 242, 0.288);
+box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 
 }
 .cardretransparent h2{
@@ -125,6 +126,7 @@ background-color: rgba(248, 242, 242, 0.288);
     margin-top: -6rem;
     margin-left: 11rem;
     margin-bottom: 50px;
+    box-shadow: #117D95 0px 3px 3px, #117D95 0px 10px 10px;
     
 }
 .esuan1{
@@ -206,8 +208,12 @@ background-color: rgba(248, 242, 242, 0.288);
     align-items: center;
     background-color: #D3A284;
     color: white;
-  
+ 
 }
+.cadremarron .card:hover{
+    transform: scale(1.2);
+}
+
 .card h3{
     margin-top: 10%;
 }
@@ -263,8 +269,8 @@ background-color: rgba(248, 242, 242, 0.288);
     text-align: center;  
 }
 .placelogo img{
-    width: 6rem;
-    height: 6rem;
+    width: 5rem;
+    height: 5rem;
     margin-top: 2rem;
     border-radius: 50%;
 }
@@ -289,7 +295,7 @@ background-color: rgba(248, 242, 242, 0.288);
 }
 .traitblanc{
     width: 4px;
-    height: 16rem;
+    height: 14rem;
     background-color: white;
 }
 .placemsg{

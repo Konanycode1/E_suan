@@ -9,18 +9,23 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.LinkActive{
+    color: #117D95;
 }
 body{
-    font-family: "Poppins";
+    font-family: "Poppins";  
     
-    
-    background-color: var(--bg);
+    background-color:var(--bg);
 }
+
 header{
     width: 100%;
     background-color: white;
     position: sticky;
-    
+    position: sticky;
+    height: 80px; 
     
 }
 
