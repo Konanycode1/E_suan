@@ -70,9 +70,13 @@ a{
 }
 
 /*-----------------contenaire------------------*/
-
+video{
+    width: 1140px;
+    height: 600px;
+    margin-bottom: 20px;
+}
 .logo{
-    width: 5rem;
+    width: 5rem; 
     height: 4rem;
     float: left;
 }
@@ -82,14 +86,14 @@ a{
     margin: 0 auto;
    
 }
-.page{
+/* .page{
     background-image: url(../assets/image/image\ enfants.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 550px;
     cursor: pointer;
     position: relative;
-}
+} */
 .enfant{
     position: absolute;
     top: 400px;
@@ -120,10 +124,35 @@ a{
     background: #fff;
     cursor: pointer;
 }
-span{
-    color: blue;
+.cardesuan{
+    border: 1px solid red;
+    width: 60%;
+    height: 20%;
+    text-align: center;
+    /* display: flex;
+    align-items: center; */
+    margin: auto;
 }
-.barre{
+
+.esuan1{
+    color: #F1DC19;
+    font-size: 4rem;
+}
+.esuan2{
+    color: #117D95;
+    font-size: 4rem;
+}
+
+
+
+
+
+
+
+/* span{
+    color: blue;
+} */
+/* .barre{
     width: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -133,38 +162,75 @@ span{
 }
 .pagraph{
     padding: 2rem;
-}
-.footer{
+} */
+.footermarron{
     width: 100%;
-    background:#b56f43db;
-    height: 320px;
-    cursor: pointer;
+    height: 14rem;
+    background-color: #D3A284;
+    margin-top: 5rem;
     display: flex;
     justify-content: space-around;
-    align-items: center;
 }
-.footer a, .footer p {
+
+.placelogo{
+    width: 8rem;
+    height: 10rem;
+    text-align: center;  
+}
+.placelogo img{
+    width: 5rem;
+    height: 5rem;
+    margin-top: 2rem;
+    border-radius: 50%;
+}
+
+.placeinfo, .placecateg{
+    color: white;
+    margin-top: 1.5rem;
+    font-size: 1.2rem;
+   
+}
+
+.placeinfo, .placecateg p{
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+.placeinfo a{
+    color: white;
+
+}
+.placecateg a{
     color: white;
 }
-.tiret{
-    width: 2px;
-    height:320px ;
+.traitblanc{
+    width: 4px;
+    height: 14rem;
     background-color: white;
 }
-.logo{
-    margin-left: 40px;
-    padding-top:50;
-    width: 60px;
-    height: 60px;
-    border-radius:50%;
-    cursor: pointer;
+.placemsg{
+    margin-right: 4rem;
+    margin-top: 2rem;
 }
-.footer input{
+.placemsg p{
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+    
+}
+.emailblanc{
     border: none;
     width: 20rem;
     height: 2rem;
+    background-color: white;
 }
-.footer button{
+input::placeholder{
+   text-align: center;
+}
+.cardreemail{
+    padding: 20px;
+display: flex;
+}
+.btnvalide button{
     border: none;
     width: 8rem;
     height: 2rem;
@@ -172,37 +238,30 @@ span{
     background-color: var(--colorGlob);
     color: white;
 }
-.footer input::placeholder{
-    text-align: center;
-}
 
-.footer2{
-    
-    height: 80px;
+footer{
+    background-color: #55a3b9;
     width: 100%;
-    cursor: pointer;
+    height: 5rem;
+   
+}
+.leslogos{
+    width: 10rem;
     display: flex;
     justify-content: space-around;
-    align-items: center;
-    background-color:#117D95;
+    margin-top: 1.2rem;
 }
-.footer2 p{
-    color: #ffffff;
+.leslogos img{
+    width: 2rem;
+    height: 2rem;
 }
-i{
-    width: 50px;
-    height: 50px;
-   
-}
-.icon{
+.foot{
     display: flex;
-   
-}
-.fa-regular{
-     font-size: 30px;
-     color: white;
-}
-.fa-brands{
-    font-size: 30px;
+    justify-content: space-around;
+    width: 130rem;
     color: white;
+    
+}
+.foot p{
+    margin-top: 1.3rem;
 }
