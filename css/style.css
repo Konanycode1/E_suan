@@ -271,7 +271,7 @@ background-color: rgba(248, 242, 242, 0.288);
 
 .placeinfo, .placecateg{
     color: white;
-    margin-top: 2rem;
+    margin-top: 1.5rem;
     font-size: 1.2rem;
    
 }
@@ -282,13 +282,14 @@ background-color: rgba(248, 242, 242, 0.288);
 }
 .placeinfo a{
     color: white;
+
 }
 .placecateg a{
     color: white;
 }
 .traitblanc{
     width: 4px;
-    height: 14rem;
+    height: 16rem;
     background-color: white;
 }
 .placemsg{
@@ -333,7 +334,7 @@ footer{
     width: 10rem;
     display: flex;
     justify-content: space-around;
-    margin-top: 1rem;
+    margin-top: 1.2rem;
 }
 .leslogos img{
     width: 2rem;
@@ -347,7 +348,7 @@ footer{
     
 }
 .foot p{
-    margin-top: 1rem;
+    margin-top: 1.3rem;
 }
 
 
