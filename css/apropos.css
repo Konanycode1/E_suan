@@ -124,14 +124,24 @@ video{
     background: #fff;
     cursor: pointer;
 }
+.cardre{
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    height: 60%;
+   
+}
 .cardesuan{
-    border: 1px solid red;
-    width: 60%;
-    height: 20%;
+    width: 62%;
+    height: 43rem;
     text-align: center;
-    /* display: flex;
-    align-items: center; */
-    margin: auto;
+    background-color: white;
+}
+
+
+.cardesuan p{
+   
+    font-size: 1.5rem;
 }
 
 .esuan1{
@@ -142,12 +152,6 @@ video{
     color: #117D95;
     font-size: 4rem;
 }
-
-
-
-
-
-
 
 /* span{
     color: blue;
@@ -163,6 +167,8 @@ video{
 .pagraph{
     padding: 2rem;
 } */
+
+
 .footermarron{
     width: 100%;
     height: 14rem;
