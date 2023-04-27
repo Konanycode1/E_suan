@@ -33,7 +33,7 @@ header{
 }
 
 nav{
-    width: 100%;
+    width: auto;
     height: 4rem;
     display: flex;
     justify-content: space-around;

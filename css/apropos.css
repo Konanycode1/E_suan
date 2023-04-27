@@ -30,7 +30,7 @@ header{
 }
 
 nav{
-    
+    width: auto;
     height: 4rem;
     display: flex;
     justify-content: space-around;

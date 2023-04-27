@@ -108,6 +108,7 @@ nav ul li a{
 .blocGlobAlph{
     display: flex;
     align-items: center;
+    margin-bottom: 50px;
 }
  .blocAlpha{
     padding: 20px;
@@ -120,12 +121,17 @@ nav ul li a{
     grid-area: 1/1/2/1;
     
 }
-.alphB{
+.alphAa{
     grid-area: 2/2/1/3;
 }
-.alphC{
+.alphB{
     grid-area: 2/3/1/4;
+    
 }
+.alphBh{
+    grid-area: 2/4/1/5;
+}
+
 .alphA, .alphB,
  .alphC,
   .alphD, 
@@ -155,7 +161,15 @@ nav ul li a{
   .alphGe,
   .alphKp,
   .alphNy,
-  .alphOo
+  .alphOo,
+  .alphAa,
+  .alphBh,
+  .alphEe,
+  .alphGh,
+  .alphIi,
+  .alphIii,
+  .alphNg,
+  .alphOu
   {
     background-color: rgb(255, 255, 255);
     display: flex;
@@ -165,18 +179,28 @@ nav ul li a{
     margin-right: 10px;
     margin-bottom: 25px;
 }
-.alphB, 
-.alphD, 
-.alphee,
+
+.alphA,
+.alphB,
+.alphC,
+.alphE,
+.alphEe,
+.alphF,
 .alphGe,
+.alphI,
+.alphIi,
 .alphJ,
 .alphKp,
+.alphM,
 .alphN,
-.alphO,
+.alphNy,
+.alphOu,
 .alphP,
-.alphT,
-.alphV,
-.alphY
+.alphR,
+.alphY,
+.alphS,
+.alphU,
+.alphZ
 {
     transform:translateY(20px);
 }
