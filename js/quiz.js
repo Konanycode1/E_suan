@@ -36,7 +36,6 @@ form.addEventListener("submit", (e)=>{
     }
     verifFunc(tableResultat)
     tableResultat =[]
-
 })
 function verifFunc(tabResultat){
     for (let i = 0; i < 8; i++) {
