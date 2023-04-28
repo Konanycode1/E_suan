@@ -133,9 +133,11 @@ video{
 }
 .cardesuan{
     width: 62%;
-    height: 43rem;
+    height: 50rem;
     text-align: center;
     background-color: white;
+    box-shadow: #117D95 0px 0px 0px 3px,  #F1DC19 0px 0px 0px 6px, #D3A284 0px 0px 0px 9px, #117D95 0px 0px 0px 12px, #F1DC19 0px 0px 0px 15px;
+    flex-direction: column;
 }
 
 
@@ -151,6 +153,25 @@ video{
 .esuan2{
     color: #117D95;
     font-size: 4rem;
+}
+.btn{
+
+    width: 15rem;
+    height: 3.2rem;
+    background-color: white;
+    border-radius: 5rem;
+    border: 2px solid #F1DC19;
+    margin-top: 5rem;
+    margin-left:40rem;
+    color: #F1DC19;
+    font-size: 1.2rem;
+    cursor: pointer;   
+    
+}
+.btn:hover{
+    background-color: white;
+    border: 2px solid #117D95;
+    color: #117D95;
 }
 
 /* span{
