@@ -6,12 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/langue.css">
     <title>Langue Yacouba</title>
-    
+    <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
         <nav>
-            <img src="../assets/logo.jpg" alt="" class="logo">
+            <img src="../assets/logo.jpg" alt="" class="logo" id="esuan">
             <ul>
                 <li><a href="../index.html"class="active"> ACCUEIL</a></li>
                 <li><a href="#"class="active LinkActive"> LANGUE</a></li>
@@ -31,7 +31,7 @@
             </div>
         </div>
         <div class="blocBack">
-            <h3>Bienvenue Mr Tan pour votre apprentisage en langue Baoulé</h3>
+            <h3>Bienvenue <span class="userName"></span> pour votre apprentissage en langue</h3>
         </div>
         <div class="blocContTwo">
             <div class="blocTitlte">
@@ -735,10 +735,10 @@
         </div>
         <div class="placecateg">
             <h3>Catégories</h3>
-            <a href=""><p>BAOULE</p></a>
-            <a href=""><p>BETE</p></a>
-            <a href=""><p>SENOUFO</p></a>
-            <a href=""><p>YACOUBA</p></a>
+            <a href="./langueBaoule.html"><p>BAOULE</p></a>
+            <a href="./langueBete.html"><p>BETE</p></a>
+            <a href="./langueSenoufo.html"><p>SENOUFO</p></a>
+            <a href="./langueYacouba.html"><p>YACOUBA</p></a>
     
         </div>
         <div class="traitblanc">
@@ -776,6 +776,7 @@
         window.location.href = "./quizBaoule.html"
     })
         </script>
-    
+    <script src="../js/app.js"></script>
+    <script src="../js/script.js"></script>
 </body>
 </html>
