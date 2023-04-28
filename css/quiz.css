@@ -115,9 +115,17 @@ button:hover{
 }
   
 .modal-content {
-    margin: 20px auto;
+    margin: auto;
     max-width: 210px;
     width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    
+}
+.modal-content img{
+    width: 100px;
+    height: 100px;
 }
   
 .hide {

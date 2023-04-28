@@ -30,7 +30,7 @@ $(document).ready(()=>{
    recup.forEach(element => {
     console.log(element.numero)
     if(element.numero === session.user){
-        ajout.text(`Mr ${element.nom} ${element.nom}`)
+        ajout.text(`Mr ${element.nom} ${element.prenom}`)
     }
    });
 

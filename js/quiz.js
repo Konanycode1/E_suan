@@ -10,6 +10,7 @@ const aideResultat = document.querySelector(".aide");
 const openBtn = document.querySelector(".open-modal-btn");
 const modal = document.querySelector(".modal-overlay");
 const closeBtn = document.querySelector(".close-modal-btn");
+let valRecup; 
 
 
 function openModal() {
@@ -47,6 +48,7 @@ function verifFunc(tabResultat){
     afficherResultat(verifTableau)
     couleur(verifTableau)
     verifTableau=[]
+    valid(valRecup)
 }
 function afficherResultat(tabbChack) {
     const nbFautes = tabbChack.filter(el => el !== true).length
@@ -56,52 +58,71 @@ function afficherResultat(tabbChack) {
             titreResultaut.innerText = "✅ Bravo, vous avez gangné ✅"
             aideResultat.innerText =""
             texteResultat.innerText = "8/8";
-            break
+            return valRecup = nbFautes
         case 1:
             titreResultaut.innerText = "👀 Faites des effort👀 ";
             aideResultat.innerText ="Retentez vous avez fait une faute "
             texteResultat.innerText = "7/8";
-            break
+            return valRecup = nbFautes
         case 2:
             titreResultaut.innerText = "👀 Faites des effort👀" 
             aideResultat.innerText ="vous avez fait deux fautes ";
             texteResultat.innerText = "6/8";
             
-            break
+            return valRecup = nbFautes
         case 3:
             titreResultaut.innerText = "👀 Faites des effort👀" 
             aideResultat.innerText =" vous avez fait trois faute "
             texteResultat.innerText = "5/8";
-            break
+            return valRecup = nbFautes
         case 4:
             aideResultat.innerText =" vous avez fait quatre faute"
             titreResultaut.innerText = "🙄 Faites des effort🙄 ";
             texteResultat.innerText = "4/8";
-            break
+            return valRecup = nbFautes
         case 5:
             titreResultaut.innerText = "👀 Faites des effort👀 ";
             aideResultat.innerText ="Retentez vous avez fait cinq faute "
             texteResultat.innerText = "3/8";
-            break
+            return valRecup = nbFautes
         case 6:
             titreResultaut.innerText = "👀 Faites des effort👀" 
             aideResultat.innerText ="Retentez vous avez fait six fautes ";
             texteResultat.innerText = "2/8";
                 
-            break
+            return valRecup = nbFautes
         case 7:
             titreResultaut.innerText = "👀 Faites des effort👀" 
             aideResultat.innerText ="Retentez vous avez fait sept faute "
             texteResultat.innerText = "1/8";
-            break
+            return valRecup = nbFautes
         case 8:
             aideResultat.innerText ="🙄 Faites des effort🙄"
             titreResultaut.innerText = "Retentez vous n'avez rien trouvé ";
             texteResultat.innerText = "0/8";
+            return valRecup = nbFautes
+        default:
             break
         
     } 
 }
+
+function valid(val) {
+    let img =  document.querySelector(".cont0 img");
+    let text = document.querySelector(".cont0 .textE ");
+    if(val === 0){
+        text.textContent ="Bravo !!!"
+        img.src = "../assets/quiz/accept.png"
+    }
+    else{
+        text.textContent ="Désolé 👀!!!"
+        img.src = "../assets/quiz/cancel.png"
+    }
+    
+}
+
+console.log(valRecup)
+
 function couleur(tabBool) {
     for (let j = 0; j < tabBool.length; j++) {
         if(tabBool[j]===true){
