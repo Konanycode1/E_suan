@@ -13,6 +13,18 @@ $(document).ready(()=>{
     const btn = $("#clic");
     const msg = $(".msg");
     let count = 0
+
+
+    const labels = document.querySelectorAll(".form-control label");
+    labels.forEach((label) => {
+      label.innerHTML = label.innerText
+        .split("")
+        .map(
+          (letter, idx) =>
+            `<span style="transition-delay:${idx * 50}ms">${letter}</span>`
+        )
+        .join("");
+    });
    
     myForm.on('submit', (e)=>{
         e.preventDefault()
