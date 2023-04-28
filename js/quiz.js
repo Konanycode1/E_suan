@@ -117,8 +117,7 @@ function valid(val) {
     else{
         text.textContent ="Désolé 👀!!!"
         img.src = "../assets/quiz/cancel.png"
-    }
-    
+    } 
 }
 
 console.log(valRecup)
