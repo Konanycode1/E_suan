@@ -54,7 +54,6 @@ $(document).ready(()=>{
                 let recup = student.getAdd()
                 
                 recup = recup.some(item => item.numero === numero)
-                alert(recup)
                 if(recup == true){
                     msg.text("Désolé !! vous avez déja un comptes");
                     msg.css("color", "red").css("text-align", "center");

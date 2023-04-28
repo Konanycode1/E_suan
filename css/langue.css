@@ -605,8 +605,8 @@ footer{
 }
 .foot{
     display: flex;
-    justify-content: space-around;
-    width: 130rem;
+    justify-content: space-between;
+    width: 70rem;
     color: white;
     
 }
