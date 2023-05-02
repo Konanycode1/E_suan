@@ -24,7 +24,7 @@ $(document).ready(()=>{
 
       if(session == null ){
         btnGlobal.on("click", (e)=>{
-            window.location.href = "../pages/login.html";
+            window.location.href = "./pages/login.html";
         });
       }
       else{
@@ -45,16 +45,16 @@ $(document).ready(()=>{
 
             switch (link) {
                 case "btnBaoule":
-                  window.location.href = "/pages/langueBaoule.html";
+                  window.location.href = "./pages/langueBaoule.html";
                   break;
                 case "btnBete":
-                  window.location.href = "/pages/langueBete.html";
+                  window.location.href = "./pages/langueBete.html";
                   break;
                 case "btnSenoufo":
-                  window.location.href = "/pages/langueSenoufo.html";
+                  window.location.href = "./pages/langueSenoufo.html";
                   break;
                 case "btnYacouba":
-                  window.location.href = "/pages/langueSenoufo.html";
+                  window.location.href = "./pages/langueSenoufo.html";
                   break;
                 default:
                     break;
